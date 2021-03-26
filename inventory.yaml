@@ -1,0 +1,7 @@
+all:
+  hosts:
+    ec2-54-216-227-216.eu-west-1.compute.amazonaws.com:
+  vars:
+    ansible_user: ubuntu
+    ansible_ssh_private_key_file: "~/.ssh/ansible_id_rsa"
+    ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
